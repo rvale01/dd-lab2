@@ -25,7 +25,6 @@ class mainClass():
             print()
 
     def user_input(self, row, column, command):
-        print(self.res_array[row][column].mine, 'see this\n\n')
         res = True
         if(self.res_array[row][column].opened == True):
             print("You cannot open this cell!")
