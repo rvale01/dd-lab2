@@ -47,7 +47,7 @@ class random_gen:
             if(self.array[x][y].mine != True):
                 self.array[x][y].mine = True
                 self.numberMines = self.numberMines + 1
-            self.add_value(x, y)
+                self.add_value(x, y)
 
     # adds 1 to a value close to the mine
     def add_value(self, x, y):
